@@ -1,0 +1,29 @@
+.accordionItem {
+  border: 1px solid #b9bbc6;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 10px; 
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordionTitle {
+  display: flex;
+  align-items: center;
+}
+
+.accordionTitle p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.question {
+  margin-left: 10px;
+}
+
+.accordionContent {
+  margin-top: 10px;
+  padding: 10px;
+  color: #60646c;
+  font-size: 16px;
+  margin-left: 18px;
+}

@@ -1,0 +1,18 @@
+.headerBannerContainer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBannerContainer p {
+  color: #fcfcfd;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerBannerContainer p {
+    font-size: 10px;
+  }
+}

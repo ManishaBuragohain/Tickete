@@ -1,0 +1,54 @@
+.faqContainer {
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .faqContainer {
+    width: 88%;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .faqFirst {
+    width: 100% !important;
+    padding: 10px;
+  }
+  .faqSecond {
+    width: 100% !important;
+    padding: 10px;
+  }
+}
+
+.faqFirst {
+  width: 40%;
+  padding: 10px;
+}
+.faqFirstPara {
+  font-size: 24px;
+  font-weight: 500;
+}
+.faqSecondPara {
+  font-size: 16px;
+  color: #60646c;
+}
+.faqSecond {
+  width: 60%;
+  padding: 10px;
+}
+
+.stillNeedHelp {
+  background-color: #f9f9fb;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.stillNeedHelp p {
+  font-size: 18px;
+  font-weight: 500;
+}

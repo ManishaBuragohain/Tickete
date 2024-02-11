@@ -1,0 +1,39 @@
+.buttonContainer {
+  margin-top: 10px;
+  position: absolute;
+}
+
+.submitButton {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  height: 50px;
+  
+}
+.submitButtonFullWidth {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  font-size: 16px;
+  height: 50px;
+  width: 100%;
+}
+
+.submitButton svg {
+  fill: white;
+}
