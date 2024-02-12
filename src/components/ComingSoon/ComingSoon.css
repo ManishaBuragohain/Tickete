@@ -63,6 +63,20 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.youSaveContainerCarousel {
+  border-radius: 15px;
+  background-color: #299764;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.youSaveContainerCarousel p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: #e9f9ee;
+  font-size: 12px;
+  padding-bottom: 3px;
+}
 
 .youSaveContainer p {
   margin-top: 0px;

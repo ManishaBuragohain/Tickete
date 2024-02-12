@@ -125,7 +125,10 @@ const PageBody = () => {
                   <p>$XXX</p>
                 </div>
               </div>
-              <div className="youSaveContainer" style={{ width: "124px" }}>
+              <div
+                className="youSaveContainerCarousel"
+                style={{ width: "124px" }}
+              >
                 <p>
                   <span className="piggyBank">
                     <PiggyBank />

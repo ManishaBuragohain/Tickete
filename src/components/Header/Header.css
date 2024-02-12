@@ -6,19 +6,16 @@
   padding-left: 130px;
   padding-right: 130px;
   height: 80px;
-  /* width: 100%; */
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
   .headerContainer {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 0;
     height: 50px;
     width: 100%;
+    box-sizing: border-box;
   }
 }
