@@ -19,11 +19,11 @@ const DetailsForm = () => {
             />
           </div>
           <div className="formFieldsContainer bottomRow">
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Country code *"
-            />
+            <select className="inputField twoItemsMain select">
+              <option value="">Country code*</option>
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+            </select>
             <input
               className="inputField twoItemsMain"
               type="text"
@@ -57,18 +57,18 @@ const DetailsForm = () => {
               type="text"
               placeholder="Input label *"
             />
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Select *"
-            />
+            <select className="inputField twoItemsMain select">
+              <option value="">Select *</option>
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+            </select>
           </div>
           <div className="firstRowForm1">
-            <input
-              className="inputField"
-              type="text"
-              placeholder="Multiselect *"
-            />
+            <select className="inputField twoItemsMain multiselectField">
+              <option value="">Multiselect *</option>
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+            </select>
           </div>
         </div>
       </div>

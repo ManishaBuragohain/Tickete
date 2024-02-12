@@ -61,6 +61,21 @@
   width: 44.5%;
 }
 
+.countryCode {
+  width: 49%;
+  background-color: #ffff;
+}
+.select {
+  width: 49%;
+  background-color: #ffff;
+  color: grey;
+}
+
+.multiselectField {
+  width: 100%;
+  background-color: #ffff;
+  color: grey;
+}
 @media screen and (max-width: 768px) {
   .twoItems,
   .twoItemsMain {
@@ -73,5 +88,22 @@
 
   .bottomRow .inputField:not(:first-child) {
     margin-top: 15px;
+  }
+
+  .countryCode {
+    width: 100%;
+    background-color: #ffff;
+  }
+
+  .select {
+    width: 98%;
+    background-color: #ffff;
+    color: grey;
+  }
+
+  .multiselectField {
+    width: 98%;
+    background-color: #ffff;
+    color: grey;
   }
 }
